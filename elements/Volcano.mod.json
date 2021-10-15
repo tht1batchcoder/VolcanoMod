@@ -1,0 +1,121 @@
+{
+  "_fv": 24,
+  "_type": "biome",
+  "definition": {
+    "name": "Volcano",
+    "groundBlock": {
+      "value": "Blocks.CRACKED_NETHER_BRICKS"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.RED_MUSHROOM_BLOCK"
+    },
+    "airColor": {
+      "value": -39322,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -16777216,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -13434880,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -6750208,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -16777216,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": "ambient.nether_wastes.additions"
+    },
+    "additionsSound": {
+      "value": "ambient.cave"
+    },
+    "music": {
+      "value": "ambient.crimson_forest.mood"
+    },
+    "moodSound": {
+      "value": "ambient.basalt_deltas.loop"
+    },
+    "moodSoundDelay": 6106,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particlesProbability": 0.5,
+    "biomeCategory": "MESA",
+    "parent": {
+      "value": "beaches"
+    },
+    "rainingPossibility": 0.1,
+    "temperature": 0.7999999999999999,
+    "baseHeight": 0.6,
+    "heightVariation": 0.9,
+    "biomeType": "DESERT",
+    "spawnBiome": true,
+    "biomeWeight": 132,
+    "biomeDictionaryTypes": [
+      "SANDY"
+    ],
+    "grassPerChunk": 2,
+    "seagrassPerChunk": 1,
+    "flowersPerChunk": 1,
+    "mushroomsPerChunk": 4,
+    "bigMushroomsChunk": 11,
+    "sandPatchesPerChunk": 5,
+    "gravelPatchesPerChunk": 5,
+    "reedsPerChunk": 1,
+    "cactiPerChunk": 3,
+    "treesPerChunk": 1,
+    "vanillaTreeType": "Default",
+    "treeType": 0,
+    "minHeight": 21,
+    "maxWaterDepth": 6,
+    "treeStem": {
+      "value": "Blocks.STRIPPED_JUNGLE_LOG"
+    },
+    "treeBranch": {
+      "value": "Blocks.BIRCH_WOOD"
+    },
+    "treeVines": {
+      "value": "Blocks.TWISTING_VINES"
+    },
+    "treeFruits": {
+      "value": "Blocks.PLAYER_WALL_HEAD"
+    },
+    "spawnStronghold": false,
+    "spawnMineshaft": true,
+    "spawnPillagerOutpost": false,
+    "villageType": "desert",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": true,
+    "spawnIgloo": false,
+    "spawnOceanMonument": true,
+    "spawnShipwreck": true,
+    "oceanRuinType": "WARM",
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "FrozenTopLayer",
+      "ExtraEmeraldOre",
+      "ExtraGoldOre",
+      "Fossils"
+    ],
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityAgeable"
+        },
+        "minGroup": 7,
+        "maxGroup": 11,
+        "weight": 25,
+        "spawnType": "creature"
+      }
+    ]
+  }
+}

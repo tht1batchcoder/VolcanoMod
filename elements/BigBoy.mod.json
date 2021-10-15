@@ -1,0 +1,33 @@
+{
+  "_fv": 24,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "bigboy",
+    "customModelName": "Normal",
+    "name": "Big Boy",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 180,
+    "efficiency": 14.0,
+    "attackSpeed": 10.0,
+    "enchantability": 72,
+    "damageVsEntity": 7.0,
+    "usageCount": 1100,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "BigBoyRightClickedInAir"
+    },
+    "onCrafted": {
+      "name": "BigBoyItemIsCraftedsmelted"
+    }
+  }
+}

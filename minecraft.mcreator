@@ -1,0 +1,77 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "BigBoyRightClickedInAir",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "big_boy_right_clicked_in_air",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "BigBoyItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "big_boy_item_is_craftedsmelted",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "BigBoy",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "big_boy"
+    },
+    {
+      "name": "Volcano",
+      "type": "biome",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "volcano"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "biome.minecraft.volcano": "Volcano",
+      "item.minecraft.big_boy": "Big Boy"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "minecraft",
+    "modName": "minecraft",
+    "version": "1.0.0",
+    "author": "holly, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.minecraft",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100236710
+}
